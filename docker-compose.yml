@@ -2,7 +2,7 @@ version: '3'
 services:
   
   backend:
-    image: 'nodejs'
+    image: 'nikhil1997/two_tier_flask_app:latest'
     ports:
       - "5000:5000"
     environment:
